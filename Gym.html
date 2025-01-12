@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projrct</title>
+    <style>
+        
+        * {
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: 900;
+            color: black;
+        }
+
+        #nav {
+            position: fixed;
+            top: 12px;
+            background-color: gray;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            left: 100px;
+        }
+     
+       
+     
+        a {
+            margin-right: 100px;
+            /* border: 2px solid black; */
+            /* border-radius: 5px; */
+        }
+
+        a:hover {
+            border-radius: 9px;
+            border-color: red;
+            cursor: pointer;
+        }
+
+        #home {
+            margin-left: 150px;
+        }
+
+        button {
+            background-color: white;
+            width: 150px;
+            height: 35px;
+            border-radius: 30px;
+            background-color: rgba(0, 23, 1, 0.5);
+            /* transition: all 2s ease-in 2s; */
+        }
+
+        button:hover {
+            background-color: blue;
+            border-color: red;
+            background-color: rgba(0, 23, 1, 0.5);
+            /* transform: translate(200px,200px); */
+            /* scale: 0.5; */
+            /* transform: skew(360deg); */
+        }
+
+        #form {
+            position: fixed;
+            top: 165px;
+            left: 100px;
+            width: 600px;
+            /* height: 400px; */
+            background-color: rgba(0, 23, 1, 0.5);
+            border-radius: 9px;
+            border: 2px solid black
+        }
+
+        .logo {
+            margin: 10px;
+            position: absolute;
+            top: 1px;
+        }
+
+        input {
+            width: 90%;
+            height: 40px;
+            border-radius: 9px;
+            padding-left: 5px;
+            background-color: rgba(0, 23, 1, 1);
+        }
+
+        input:hover {
+            border-radius: 3%;
+            color: white;
+            border-color: red;
+            border-radius: 9px;
+        }
+
+        form {
+            margin: 15px;
+            margin-right: -15px;
+
+        }
+
+        #ty {
+            height: 45px;
+            background-color: rgba(0, 23, 1, 0.5);
+        }
+        #form:hover{
+            border-color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="" width="100%">
+    <div id="nav">
+        <img class="logo" width="100px" src="https://srmap.edu.in/file/2019/12/Logo-2.png">
+        <a id="home" href="#">Home</a>
+        <a href="#">About US</a>
+        <a href="#">Fitness Calculator</a>
+        <a href="#">Contact Us</a>
+        <button>Call Us now</button>
+        <button>Email Us</button>
+
+    </div>
+    <div id="form">
+        <form action="post">
+            <h1>Join Us!</h1>
+            <input type="text" placeholder="Enter Your Name"><br><br>
+            <input type="text" placeholder="Enter Your Age"><br><br>
+            <input type="text" placeholder="Enter Your Gender"><br><br>
+            <input type="text" placeholder="Enter Your Locality"><br><br>
+            <button id="ty">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
